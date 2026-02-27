@@ -18,4 +18,5 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./meufrontend:/usr/share/nginx/html/html
+      - ./meufrontend:/usr/share/nginx/html
+      
