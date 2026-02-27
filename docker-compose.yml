@@ -16,6 +16,6 @@ services:
   web:
     image: nginx
     ports:
-      - "8080:80"
+      - "80:80"
     volumes:
       - ./meufrontend:/usr/share/nginx/html/index.html
