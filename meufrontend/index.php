@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>VM</title>
 </head>
 
 <body>
-    <h1>MEU FRONT END </h1>
+    <?php echo "<h1>MEU FRONT END EM PHP DEU CERTO!</h1>" ?>
 </body>
 
 </html>
