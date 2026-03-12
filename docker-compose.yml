@@ -16,11 +16,12 @@ services:
       - "8080:80"
     environment:
       PMA_HOST: db
-      PMA_ARBITRARY: 1
+      PMA_ARBITRARY: 1s
     depends_on:
       - db
 
   web:
+  build:
     image: nginx:latest
     ports:
       - "80:80"
@@ -31,8 +32,8 @@ services:
       - php-fpm
 
   php-fpm:
-    image: php:8.3-fpm
-    container_name: php8.3-fpm
+    image: php:8.3-fpm 
+    container_name: fzl-php8.3-fpm
     volumes:
       - ./:/var/www/html
 
