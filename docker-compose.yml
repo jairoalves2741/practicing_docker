@@ -34,7 +34,7 @@ services:
     image: php:8.3-fpm
     container_name: fzl-php8.3-fpm
     volumes:
-      - ./:/var/www/meufrontend/index.php
+      - ./meufrontend:/var/www/html
 
 volumes:
   db_data:
