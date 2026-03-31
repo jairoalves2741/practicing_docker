@@ -10,8 +10,8 @@
 <body>
     <h1>MEU HTML</h1>
     <?php
-    $nome = "Claude Shanon";
-    echo "<h2>Olá $nome !!!</h2>"
+    $nome = "Deu certo subir na Azaure ";
+    echo "<h2> $nome !!!</h2>"
         ?>
 </body>
 
