@@ -10,7 +10,7 @@
 <body>
     <h1>MEU HTML</h1>
     <?php
-    $nome = "Deu certo subir na Azaure ";
+    $nome = "Deu certo subir na Azure ";
     echo "<h2> $nome !!!</h2>"
         ?>
 </body>
